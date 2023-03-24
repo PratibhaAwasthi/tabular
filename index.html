@@ -1,0 +1,62 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Table</title>
+    <style>
+      table,
+      .td,
+      .th {
+        border-collapse: collapse;
+        width: 20%;
+        height: 30%;
+        text-align: center;
+      }
+      th {
+        color: white;
+        background-color: #4f82e7;
+      }
+      tr:nth-child(even) {
+        background-color: #f0f7ff;
+        border-bottom: 1px solid #cbdcf2;
+        border-top: 1px solid #cbdcf2;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Country</th>
+        <th>OrderID</th>
+        <th>Order Amount</th>
+      </tr>
+      <tr>
+        <td>USA</td>
+        <td>1000</td>
+        <td>$1,300</td>
+      </tr>
+      <tr>
+        <td>USA</td>
+        <td>1001</td>
+        <td>$700</td>
+      </tr>
+      <tr>
+        <td>CA</td>
+        <td>1002</td>
+        <td>$2000</td>
+      </tr>
+      <tr>
+        <td>CA</td>
+        <td>1003</td>
+        <td>$1,000</td>
+      </tr>
+      <tr>
+        <th>Total</th>
+        <th></th>
+        <th>$5,000</th>
+      </tr>
+    </table>
+  </body>
+</html>
